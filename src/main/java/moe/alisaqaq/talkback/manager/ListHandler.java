@@ -20,7 +20,7 @@ public class ListHandler implements CommandExecutor {
         sender.sendMessage("[Talkback] Command Entries:");
 
         for (var cmd : commands) {
-            sender.sendMessage("    " + cmd);
+            sender.sendMessage(cmd);
         }
 
         return true;
