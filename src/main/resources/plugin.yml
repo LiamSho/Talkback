@@ -1,0 +1,29 @@
+name: Talkback
+version: '${project.version}'
+main: moe.alisaqaq.talkback.Talkback
+api-version: 1.19
+prefix: "Talkback"
+softdepend:  [ PlaceholderAPI ]
+authors: [ Alisa ]
+description: Use custom command to print something in chat.
+website: https://github.com/LiamSho/Talkback
+commands:
+  talkback:
+    aliases:
+      - tb
+    usage: "/talkback <entry name>"
+    description: "Get or broadcast predefined messages."
+
+  talkbacklist:
+    aliases:
+      - tbl
+    usage: "/talkbacklist"
+    description: "List all predefined messages."
+
+  talkbackreload:
+    aliases:
+      - tbr
+    usage: "/talkbackreload"
+    description: "Reload configuration file."
+    permission: "talkback.reload"
+    permission-message: "You don't have permission to use this command."

@@ -1,0 +1,22 @@
+info:
+  command: info
+  permission: ""
+  target: self
+  message: |-
+    §3================ SERVER INFO ================§r
+    §r
+    §r  §6Version: §b%server_version%§r
+    §r  §6Uptime: §b%server_uptime%§r
+    §r
+    §r  §6Players online: §b%playerlist_online,normal,yes,amount%/%server_max_players%§r
+    §r
+    §r  §6RAM (MB):§r
+    §r    §6Used: §b%server_ram_used%§r
+    §r    §6Total: §b%server_ram_total%§r
+    §r    §6Free: §b%server_ram_free%§r
+    §r    §6Max: §b%server_ram_max%§r
+    §r
+    §r  §6TPS: %server_tps%§r
+    §r
+    §r  §6Entities: §b%server_total_living_entities%/%server_total_entities%§r
+    §r  §6Chunks: §b%server_total_chunks%§r
